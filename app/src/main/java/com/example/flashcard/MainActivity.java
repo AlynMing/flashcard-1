@@ -13,10 +13,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        findViewById(R.id.TextColor).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.ans1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ((Button) findViewByid(R.id.ans1)).setTextColor(getResources().getColor(R.color.wrongAns));
+                ((Button) findViewById(R.id.ans1)).setTextColor(getResources().getColor(R.color.wrongAns));
             }
         });
 
