@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.TextColor).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ((Button) findViewById(R.Id.ans1)).setTextColor(getResources().getColor(R.color.wrongAns));
+                ((Button) findViewByid(R.id.ans1)).setTextColor(getResources().getColor(R.color.wrongAns));
             }
         });
 
         }
     }
-}
+

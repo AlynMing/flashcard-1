@@ -3,4 +3,5 @@
     <color name="colorPrimary">#56ff00</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#ff0d00</color>
+    <color name = "wrongAns">#FF0000</color>
 </resources>
