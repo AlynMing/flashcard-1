@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">flash card</string>
+    <string name-"quest">Who is the 44th President of the United States?</string>
+    <string name-"answer1"></string>
+    <string name-answer2"></string>
+    <string name-answer3"></string>
+    <string name-answer4"<>/string>"
+
+</resources>
