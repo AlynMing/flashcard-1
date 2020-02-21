@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-             //Do somthing after 100ms
+                //Do somthing after 100ms
             }
         },100);
     }

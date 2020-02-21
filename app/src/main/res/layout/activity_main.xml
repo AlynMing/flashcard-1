@@ -7,18 +7,17 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="260sp"
+        android:layout_width="270sp"
         android:layout_height="50sp"
-        android:text="Who is the 4th President of the United States?"
-        android:layout_centerHorizontal="true"
         android:layout_above="@id/ans1"
-        />
+        android:layout_centerHorizontal="true"
+        android:text="@string/who_is_the_4th_president_of_the_united_states" />
 
     <Button
         android:id="@+id/ans1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bill Clinton"
+        android:text="@string/bill_clinton"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
@@ -26,7 +25,7 @@
         android:id="@+id/ans2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="George H. W. Bush"
+        android:text="@string/george_h_w_bush"
         android:layout_below="@id/ans1"
         android:layout_centerHorizontal="true" />
 
