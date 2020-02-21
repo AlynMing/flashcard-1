@@ -8,9 +8,8 @@
 Flash card assigment for the CodePathMobile AppDesign Course .
 
 ### App Walk-though
-`TODO://` 
 
-<img src="https://i.imgur.com/povNBqz.gif" width=200><br>
+<img src="https://i.imgur.com/povNBqz.gif" width=300><br>
 
 
 ## Required
