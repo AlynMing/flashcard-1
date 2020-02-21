@@ -3,6 +3,7 @@ package com.example.flashcard;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 
@@ -35,5 +36,12 @@ public class MainActivity extends AppCompatActivity {
                 ((Button) findViewById(R.id.ans3)).setTextColor(getResources().getColor(R.color.correctAns));
             }
         });
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+             //Do somthing after 100ms
+            }
+        },100);
     }
 }
