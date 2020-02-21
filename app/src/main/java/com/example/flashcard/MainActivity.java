@@ -2,6 +2,7 @@ package com.example.flashcard;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.ans1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                resetState();
                 ((Button) findViewById(R.id.ans1)).setTextColor(getResources().getColor(R.color.wrongAns));
 
             }
@@ -25,23 +27,22 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.ans2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                resetState();
                 ((Button) findViewById(R.id.ans2)).setTextColor(getResources().getColor(R.color.wrongAns));
             }
         });
         findViewById(R.id.ans3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                resetState();
                 ((Button) findViewById(R.id.ans3)).setTextColor(getResources().getColor(R.color.correctAns));
             }
         });
-        final Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                //Do somthing after 100ms
-            }
-        },100);
+    }
+
+    private void resetState() {
+        ((Button)findViewById(R.id.ans1)).setTextColor(Color.BLACK);
+        ((Button)findViewById(R.id.ans2)).setTextColor(Color.BLACK);
+        ((Button)findViewById(R.id.ans3)).setTextColor(Color.BLACK);
     }
 }
