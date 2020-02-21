@@ -34,7 +34,7 @@
         android:id="@+id/ans3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Barack Obama"
+        android:text="@string/correct_answer"
         android:layout_below="@id/ans2"
         android:layout_centerHorizontal="true"/>
 
