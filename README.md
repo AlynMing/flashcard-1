@@ -5,13 +5,12 @@
 ## Lab 1
 
 ### App Description
-`TODO://` Flash card assigment for the CodePathMobile AppDesign Course .
+Flash card assigment for the CodePathMobile AppDesign Course .
 
 ### App Walk-though
 `TODO://` 
 
-<img src="./walkthrough.gif" width=200><br>
-
+<img src="https://i.imgur.com/povNBqz.gif" width=200><br>
 
 
 ## Required
